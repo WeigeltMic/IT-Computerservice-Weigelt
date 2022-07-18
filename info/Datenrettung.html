@@ -3,8 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <link rel="stylesheet" href="../css/Datenrettung.css">
 </head>
 <body>
+<header>
+  Der IT Professional bei Datenverlust <br> Unsere Servicehotline: +49 152 55710233
+</header>
+<div class="container">
+  <div class="☺">
+    Datenrettung | Datenwiederhestellung | Rekonstruktion beschädigter Daten
+  </div>
+  <div class="☻">
+    <div class="☻-☺">
+      <body onload="startTimer()">
+      <img id="img" src="../img/bild97.png"/>
+      </body>
+      <script>
+        function displayNextImage() {
+          x = (x === images.length - 1) ? 0 : x + 1;
+          document.getElementById("img").src = images[x];
+        }
 
-</body>
-</html>
+        function displayPreviousImage() {
+          x = (x <= 0) ? images.length - 1 : x - 1;
+          document.getElementById("img").src = images[x];
+        }
+
+        function startTimer() {
+          setInterval(displayNextImage, 3000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "../img/bild97.png";
+        images[1] = "../img/bild98.png";
+        images[2] = "../img/bild99.jpg";
+
+      </script>
+    </div>
+    <div class="☻-☻">
+      Es kommt so plötzlich wie unerwartet...
+    </div>
+
+
+  </div>
+
+  <div class="♥">
+    Die externe Festplatte wird nicht mehr erkannt, das Laptop meldet „no bootable device“ oder der USB Stick
+    verweigert komplett seinen Dienst. Vielleicht haben Sie aber auch nur versehentlich Ihre Daten gelöscht oder
+    Schadsoftware hat Ihre Dokumente, Musik, Bilder etc. unbrauchbar gemacht.
+    <br><br>
+    Seien Sie beruhigt, in den meisten Fällen können wir Ihre Daten wieder vollständig herstellen und das zu wirklich
+    bezahlbaren Konditionen mit Festpreisgarantie! Wir haben uns auf Datenrettung- und Daten Wiederherstellung bis
+    hin zur kompletten Rekonstruktion beschädigter Daten einer Festplatte für Privat- und Firmenkunden spezialisiert.
+    Selbst bei beschädigten Festplatten können wir weiterhelfen und auf entsprechende Technik zurückgreifen.
+    <br><br>
+    Bei gelöschten Daten sollten Sie in keinem Fall mit dem System weiterarbeiten, da dies die
+    Datenwiederherstellung enorm erschwert!
+    <br><br>
+    Bringen Sie uns in diesem Fall Ihr Gerät oder den Datenträger oder nutzen Sie unseren Express Abholservice! Wir
+    analysieren, ob eine Datenrettung möglich ist. Sie erhalten umgehend einen Kostenvoranschlag.
+
+  </div>
+  <div class="♦">
+    <h1>
+      Wir garantieren Ihnen, <br> <br>
+      dass Sie nur im Erfolgsfall und nachdem Sie sich von der Vollständigkeit der geretteten Daten überzeugt haben, für
+      die Datenrettung bezahlen müssen.
+    </h1>
+  </div>
+
+</div>
