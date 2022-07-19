@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: url("../img/GamingSetup1.jpg");
+  background-image: url("img/setup-gaming-01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px;
@@ -88,10 +88,10 @@ header {
 
 .♦ {
   grid-area: 4 / 1 / 5 / 3;
-  background-image: url("../img/matrix-4493783_1920.jpg");
+  background-image: url("img/matrix-blue.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 300px;
   background-attachment: fixed;
 
 
@@ -105,10 +105,12 @@ header {
   color: #ffffff;
 }
 .♦ > h1 {
-  font-size: calc(30px + 2vmin);
+  font-size: calc(15px + 2vmin);
   text-align: center;
   font-weight: bold;
   font-family: Roboto, sans-serif;
   color: #ffffff;
   margin: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
