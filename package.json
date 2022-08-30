@@ -1,8 +1,11 @@
 {
-  "name": "",
+  "name": "computerservice-weigelt",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
+  "keywords": [
+    "computerservice",
+    "weigelt"
+  ],
   "license": "",
   "author": "",
   "scripts": {
