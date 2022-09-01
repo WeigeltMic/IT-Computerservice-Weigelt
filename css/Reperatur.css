@@ -31,10 +31,11 @@ body > a {
 
 }
 header {
-  background-image: url("../img/filler.png");
+  background-image: url("../img/b1.jpg");
   background-size: cover;
+  background-attachment:fixed;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 1000px;
   /*Center the text in the middle of the header*/
   display: flex;
   align-items: center;
@@ -139,14 +140,15 @@ header {
   transition: 1s;
 }
 .frame {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url("../img/filler.png");
+  background-image: url("../img/slider_c5.jpg");
   background-attachment:fixed;
   background-position: left top;
+  background-size: 100%;
   margin:0;
 }
 li > p {
@@ -160,4 +162,11 @@ li {
 }
 li > img {
   color: white;
+}
+
+.elements{
+  font-size: 12px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify; 
 }
