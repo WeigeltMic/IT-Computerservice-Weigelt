@@ -168,5 +168,5 @@ li > img {
   font-size: 12px;
   margin-left: 400px;
   margin-right: 400px;
-  text-align: justify; 
+  text-align: justify !important; 
 }
