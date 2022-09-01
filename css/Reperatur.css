@@ -157,8 +157,8 @@ li > p {
   margin-right: 60px;
 }
 li {
+  list-style: none;
   padding: 30px;
-
 }
 li > img {
   color: white;
@@ -168,5 +168,5 @@ li > img {
   font-size: 12px;
   margin-left: 400px;
   margin-right: 400px;
-  text-align: justify; 
+  text-align: justify;
 }
