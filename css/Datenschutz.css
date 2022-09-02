@@ -1,11 +1,12 @@
 * {
-    background-color: #232323;
     margin: 0px;
     padding: 0px;
     font-family: Roboto, sans-serif;
     color:#fcfcfc;
 }
 
-.text{
-    background-color: #232323;
+.backgorund-img{
+    background-image: url("../img/pc_z5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
