@@ -11,7 +11,7 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  justify-content: center;
+  text-align: center;
   max-width: 100%;
   background-color: var(--default-background);
 }
@@ -168,5 +168,12 @@ li > img {
   font-size: 12px;
   margin-left: 400px;
   margin-right: 400px;
-  text-align: justify !important; 
+  text-align: center;
+  justify-content:center !important; 
+}
+
+.elemttext{
+  text-align: justify;
+  margin-left: 400px;
+  margin-right: 400px;
 }
