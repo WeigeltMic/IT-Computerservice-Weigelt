@@ -1,26 +1,30 @@
 * {
-  background-color: #23232398;
-  margin: 10px;
+  margin: 0px;
   padding: 0px;
   font-family: Roboto, sans-serif;
   color:#fcfcfc;
 
 }
 
+body{
+  background-image: url("../img/setup-modern.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .impressum{
   text-align: center;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgba(34, 34, 34, 0.651);
 }
 
 .text{
   text-align: justify;
-  margin-left: 600px;
-  margin-right: 600px;
-}
-
-.img{
-  background-image: url("../img/setup-modern.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgba(34, 34, 34, 0.651);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }

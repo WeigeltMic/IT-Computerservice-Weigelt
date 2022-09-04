@@ -10,3 +10,22 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.überschrifft{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text{
+    text-align: justify;
+}
+
+.hintergrundschatten{
+    background-color: rgba(20, 20, 20, 0.788);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
