@@ -23,7 +23,7 @@ body{
 .überschrifft{
     font-size: 40px;
     text-align: left;
-    
+
 }
 
 .text{
@@ -34,7 +34,7 @@ body{
 .überschrifft-1{
     font-size: 40px;
     text-align: left;
-    
+
 }
 
 .text-1{
@@ -47,15 +47,15 @@ body{
     text-align: left;
     ;
 }
-    
+
 .text-2{
     font-size: 20px;
     text-align: justify;
-    
+
 }
 
 .grauer-hintergrund{
     background-color: #1f1f1f;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
