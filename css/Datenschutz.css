@@ -1,31 +1,31 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Roboto, sans-serif;
-    color:#fcfcfc;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+  color: #fcfcfc;
 }
 
-.backgorund-img{
-    background-image: url("../img/pc_z5.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.backgorund-img {
+  background-image: url("../img/pc_z5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.überschrifft{
-    text-align: center;
-    font-size: 40px;
+.überschrift {
+  text-align: center;
+  font-size: 40px;
 }
 
-.text{
-    text-align: justify;
+.text {
+  text-align: justify;
 }
 
-.hintergrundschatten{
-    background-color: rgba(20, 20, 20, 0.788);
-    margin-left: 400px;
-    margin-right: 400px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 100px;
-    padding-bottom: 30px;
+.hintergrundschatten {
+  background-color: rgba(20, 20, 20, 0.788);
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }

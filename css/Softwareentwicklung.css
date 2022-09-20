@@ -3,15 +3,15 @@
     margin: 0;
     font-family: Roboto, sans-serif;
     color: white;
-    
-    
+
+
   }
 header{
     background-image: url("../img/Computer-Showcase.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 850px;
-    
+
     text-align: center;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ header{
   background-color:  #1f1f1f
 }
 
-.überschrifft{
+.überschrift{
   font-size: calc(3px + 2vmin);
 }
 

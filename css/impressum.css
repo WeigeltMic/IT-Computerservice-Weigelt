@@ -2,24 +2,24 @@
   margin: 0px;
   padding: 0px;
   font-family: Roboto, sans-serif;
-  color:#fcfcfc;
+  color: #fcfcfc;
 
 }
 
-body{
+body {
   background-image: url("../img/gamingpc_f1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.impressum{
+.impressum {
   text-align: center;
   margin-left: 400px;
   margin-right: 400px;
   background-color: rgba(34, 34, 34, 0.651);
 }
 
-.text{
+.text {
   text-align: justify;
   margin-left: 400px;
   margin-right: 400px;
