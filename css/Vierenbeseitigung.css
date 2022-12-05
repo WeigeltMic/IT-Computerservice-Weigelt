@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  background-image: url("../img/cyber_security3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  /*Center the text in the middle of the header*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: #fcfcfc;
+  text-shadow: 0 0 20px #c01515;
+}
+
+
+.Titeltext {
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: calc(15px + 2vmin);
+}
+
+
+.container {
+  display: grid;
+  background-color: #1f1f1f;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.extra_layer {
+  /* Only margin when the screen size is bigger then 500 */
+  margin: 0 400px 0 400px;
+}
+
+
+.überschrift {
+  font-size: calc(20px + 2vmin);
+}
+
+.text {
+  font-size: calc(0.5px + 2vmin);
+  text-align: justify;
+}
+
+.halbeüberschrifft {
+  font-size: calc(10px + 2vmin);
+  text-align: left;
+}
+
+.zwischenbild {
+  background-image: url("../img/code.png ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+@media (max-width: 1500px) {
+  .extra_layer {
+    margin: auto 50px auto 50px;
+
+  }
+
+  .text {
+    font-size: calc(1px + 2vmin);
+    text-align: justify;
+  }
+
+  .zwischenbild {
+    height: 500px;
+  }
+
+  .überschrift {
+    font-size: calc(40px + 2vmin);
+    /* format the text in the middle of the screen */
+
+  }
+}

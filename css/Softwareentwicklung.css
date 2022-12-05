@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  color: white;
+
+
+}
+
+header {
+  background-image: url("../img/Computer-Showcase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: #fcfcfc;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.hintergrundfarbe {
+  background-color: #1f1f1f
+}
+
+.überschrift {
+  font-size: calc(3px + 2vmin);
+}
+
+.überschrifft_center {
+  font-size: calc(20px + 2vmin);
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.seitenabstand {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.text {
+  text-align: justify;
+  image-resolution: 50px;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+.halbeüberschirfft {
+  font-size: calc(3px + 2vmin);
+}
+
+.mittleressekment {
+  background-image: url("../img/Computer-Showcase-blured.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+#left {
+  float: left;
+  text-align: justify;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+#right {
+  float: right;
+  text-align: justify;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.seitenabstand2 {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.schattenmitte {
+  background-color: #0c0c0c9a;
+  padding: 20px;
+}
+
+.halbeüberschirfftunten {
+  font-size: calc(3px + 2vmin);
+}
+
+.unteressekment {
+  text-align: left;
+}

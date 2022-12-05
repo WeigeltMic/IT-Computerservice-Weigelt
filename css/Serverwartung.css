@@ -1,0 +1,61 @@
+*{
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/server-row1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.schatten{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.überschrift{
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.überschrifft-1{
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.text-1{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.überschrifft-2{
+     font-size: 40px;
+    text-align: left;
+    ;
+}
+
+.text-2{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.grauer-hintergrund{
+    background-color: #1f1f1f;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}

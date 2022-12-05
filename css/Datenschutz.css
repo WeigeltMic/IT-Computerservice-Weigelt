@@ -1,11 +1,56 @@
 * {
-    background-color: #232323;
-    margin: 0px;
-    padding: 0px;
-    font-family: Roboto, sans-serif;
-    color:#fcfcfc;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  color: #fcfcfc;
 }
 
-.text{
-    background-color: #232323;
+.backgorund-img {
+  background-image: url("../img/pc_z5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.überschrift {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.hintergrundschatten {
+  background-color: rgba(20, 20, 20, 0.788);
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 100px 30px 30px;
+  transition: 1s;
+}
+@media (max-width: 1700px) {
+  .hintergrundschatten {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px 30px 30px;
+    transition: 1s;
+  }
+
+}
+@media (max-width: 1500px) {
+  .hintergrundschatten {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px 30px 30px;
+    transition: 1s;
+  }
+
+}
+@media (max-width: 1000px) {
+  .hintergrundschatten {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 100px 30px 30px;
+    transition: 1s;
+  }
+
 }

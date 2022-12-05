@@ -4,17 +4,20 @@
   text-align: center;
   color: white;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #33afb7;
 }
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  justify-content: center;
+  text-align: center;
   max-width: 100%;
   background-color: var(--default-background);
 }
+
 body > a {
   font-size: 20px;
 
@@ -30,10 +33,11 @@ body > a {
   --dark-background: #1f1f1f;
 
 }
+
 header {
   background-image: url("../img/b1.jpg");
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 1000px;
   /*Center the text in the middle of the header*/
@@ -139,6 +143,7 @@ header {
 
   transition: 1s;
 }
+
 .frame {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -146,27 +151,69 @@ header {
   height: 100%;
   overflow: hidden;
   background-image: url("../img/slider_c5.jpg");
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: left top;
   background-size: 100%;
-  margin:0;
+  margin: 0;
 }
+
 li > p {
   text-align: justify;
-  margin-left: 60px;
-  margin-right: 60px;
 }
+
 li {
-  list-style: none;
-  padding: 30px;
+  list-style-type: none;
+
 }
+
 li > img {
   color: white;
 }
 
-.elements{
+.elements {
   font-size: 12px;
   margin-left: 400px;
   margin-right: 400px;
+  text-align: center;
+  justify-content: center !important;
+}
+
+.element-text {
   text-align: justify;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+@media (max-width: 1500px) {
+
+  .element-text {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .element-text {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 1s;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+
+  .element-text {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 1s;
+
+  }
+
 }
