@@ -65,6 +65,7 @@
   background-size: cover;
   height: 200px;
 }
+
 @media (max-width: 1500px) {
   .extra_layer {
     margin: auto 50px auto 50px;
@@ -75,9 +76,11 @@
     font-size: calc(1px + 2vmin);
     text-align: justify;
   }
+
   .zwischenbild {
     height: 500px;
   }
+
   .überschrift {
     font-size: calc(40px + 2vmin);
     /* format the text in the middle of the screen */

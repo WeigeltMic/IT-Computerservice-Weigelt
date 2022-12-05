@@ -17,7 +17,6 @@
   --default-hover: #1796b7;
   --default-grayout: #9d9d9d;
   --dark-background: #1f1f1f;
-
 }
 
 
@@ -35,7 +34,7 @@ header {
   font-weight: bold;
   font-family: Roboto, sans-serif;
   color: #fcfcfc;
-  text-shadow: 0px 0px 20px #1796b7
+  text-shadow: 0 0 20px #1796b7
 }
 
 .container {
@@ -43,7 +42,7 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto;
   background-color: #1f1f1f;
-  gap: 0px 0px;
+  gap: 0 0;
 }
 
 .☺ {
@@ -75,6 +74,7 @@ header {
   color: #fcfcfc;
   margin-left: 300px;
   margin-right: 300px;
+  transition: 1s;
   text-align: justify;
   font-size: calc(4px + 2vmin);
 }
@@ -86,8 +86,6 @@ header {
   background-repeat: no-repeat;
   height: 300px;
   background-attachment: fixed;
-
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,4 +251,26 @@ header {
   width: 80%;
   object-fit: cover;
   object-position: center;
+}
+
+@media (max-width: 1500px) {
+  .♥ {
+    margin: auto 50px auto 50px;
+    transition: 1s;
+  }
+
+  .text {
+    font-size: calc(1px + 2vmin);
+    text-align: justify;
+  }
+
+  .zwischenbild {
+    height: 500px;
+  }
+
+  .überschrift {
+    font-size: calc(40px + 2vmin);
+    /* format the text in the middle of the screen */
+
+  }
 }
