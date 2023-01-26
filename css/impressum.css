@@ -9,20 +9,20 @@
 body {
   background-image: url("../img/gamingpc_f1.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 }
 
 .impressum {
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
   background-color: rgba(34, 34, 34, 0.651);
 }
 
 .text {
   text-align: justify;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
   background-color: rgba(34, 34, 34, 0.651);
   padding-left: 20px;
   padding-right: 20px;

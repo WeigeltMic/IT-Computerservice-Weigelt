@@ -10,14 +10,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .schatten{
     background-color: rgba(0, 0, 0, 0.7);
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .überschrift{
@@ -59,3 +59,7 @@ body{
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
+.überschrifftdiemaausnamsweisefunktioniert{
+    font-size: 40px; 
+})
