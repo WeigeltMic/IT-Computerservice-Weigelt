@@ -22,8 +22,8 @@
 
 .hintergrundschatten {
   background-color: rgba(20, 20, 20, 0.788);
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 100px 30px 30px;
   transition: 1s;
 }

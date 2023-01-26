@@ -37,6 +37,10 @@ header {
   text-shadow: 0 0 20px #1796b7
 }
 
+body {
+  background-color: #1f1f1f;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,8 +76,8 @@ header {
   border-radius: 10px;
   padding: 10px;
   color: #fcfcfc;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   transition: 1s;
   text-align: justify;
   font-size: calc(4px + 2vmin);
@@ -104,6 +108,8 @@ header {
   color: #ffffff;
   margin: 50px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .section-header {

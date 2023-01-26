@@ -1,14 +1,21 @@
 * {
   color: white;
   font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background-image: url("../img/kontakt_z.jpg");
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   text-align: center;
 
+}
+
+.Hintergrund{
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 400px;
 }
 
 .überschrift {
@@ -17,22 +24,12 @@ body {
   text-shadow: 0px 0px 30px rgba(1, 75, 80, 0.973);
 }
 
-#left {
-  float: left;
+#mid {
   width: 600px;
   height: 650px;
   background-color: rgba(0, 0, 0, 0.85);
-  margin-left: 550px;
   padding-left: 60px;
-}
-
-#right {
-  float: right;
-  width: 600px;
-  height: 650px;
-  background-color: rgba(0, 0, 0, 0.85);
-  margin-right: 550px;
-  padding-left: 60px;
+  margin: auto;
 }
 
 .spaltenüberschriftlinks {
